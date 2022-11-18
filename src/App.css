@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+.App {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  background-color: black;
+  font-family: 'Special Elite', cursive;
+ 
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.main-title {
+  font-size: 3em;
+  font-weight: bold;
+  box-shadow: 0 0 1.4em rgba(217, 61, 231, 0.35);
+}
+
+.start {
+  font-family: 'Audiowide', Arial, sans-serif;
+	font-size: calc(5rem + 2vw);
+	font-weight: 900;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	width: 6em;
+	height: 3em;
+	color: white;
+	background-color: #bdbdbd;	
+	outline: none;
+	border: none;
+	border-bottom: 0.12em solid #999;
+	border-radius: 0.5em;			
+	cursor: pointer;	
+	transform: rotateX(20deg);
+	background-color: purple;	
+	border-bottom: 0.05em solid #8f2aa8;
+	box-shadow: 0 0 1.4em rgba(217, 61, 231, 0.35);
+	transform: rotateX(20deg) translateY(0.05em) scale(0.99);
+	
+}
+
+.start:hover {
+  color: purple;
+    background-color: white;
+    left:-50%;
+    transform: skewX(-4deg);
+}

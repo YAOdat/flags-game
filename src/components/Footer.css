@@ -1,0 +1,39 @@
+
+div.waves{
+    width: 100%;
+    bottom: 0;
+    /*height: 100%;*/
+    position: absolute;
+    z-index: 99;
+  }
+  
+  svg{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    animation-name: move-left;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  .spacer{
+    height: 100px;
+    width: 100%;
+  }
+  
+  @keyframes example {
+    0%   {
+      left:0px;
+      top:0px;}
+    
+    50%  {
+      left:-2000px;
+      top:200px;}
+    
+    100% {
+      left:0px; 
+      top:0px;}
+  }
+  
+  
