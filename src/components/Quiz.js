@@ -4,6 +4,7 @@ import './Quiz.css';
 import GameOver from './GameOver.js'
 
 
+
 export default class Quiz extends React.Component {
     constructor(props) {
         super(props);
@@ -16,8 +17,6 @@ export default class Quiz extends React.Component {
             score: 0,
             timer: 0,
             gameOver: false,
-            buttonColor: 'red'
-
 
         }
     };
@@ -44,12 +43,10 @@ export default class Quiz extends React.Component {
         return randomOptions;
     }
 
-    // handle the click event on the options
     handleClick = (index) => {
-        // check if the option clicked is the correct country
-        // if score is equal to the length of the countries array, the game is over
         if (this.state.countryIndex !== 25) {
             if (this.state.options[index] === this.state.correctCountry) {
+                // we need this state to change the color of the background
                 // update the score
                 this.setState({ score: this.state.score + 1 });
                 // update the country index
@@ -81,7 +78,6 @@ export default class Quiz extends React.Component {
         })
 
         this.timer = setInterval(() => {
-            // if the game is over stop the timer
             if (this.state.gameOver) {
                 clearInterval(this.timer);
             } else {
@@ -104,19 +100,17 @@ export default class Quiz extends React.Component {
         return (
             <div className="quiz">
                 <div className="quiz__score">Score: {this.state.score}</div>
-                {/* if the game is not over, show the quiz */}
                 {!this.state.gameOver &&
                     <div className="quiz__container">
                         <div className="quiz__timer">Timer: {this.state.timer}</div>
                         <div className="quiz__question">
                             <div className='flag-contianr'>
                                 <div className="flag">
-                                    <img src={this.state.flags} alt="flag" />
+                                    <img src={this.state.flags} alt="flag" className='flag-image' />
                                 </div>
                             </div>
 
                             <h2>Which country does this flag belong to?</h2>
-                            {/* render the options: */}
                             <div className="quiz__options">
                                 {this.state.options.map((option, index) => {
                                     return (

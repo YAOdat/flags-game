@@ -3,127 +3,127 @@
         {
             "name": "United States",
             "code": "US",
-            "flag": "https://countryflagsapi.com/png/US"
+            "flag": "https://flagcdn.com/w1280/us.png"
         },
         {
             "name": "Canada",
             "code": "CA",
-            "flag": "https://countryflagsapi.com/png/Canada"
+            "flag": "https://flagcdn.com/w1280/ca.png"
         },
         {
             "name": "Mexico",
             "code": "MX",
-            "flag": "https://countryflagsapi.com/png/Mexico"
+            "flag": "https://flagcdn.com/w1280/mx.png"
         },
         {
             "name": "Turkey",
             "code": "TR",
-            "flag": "https://countryflagsapi.com/png/Turkey"
+            "flag": "https://flagcdn.com/w1280/tr.png"
         },
         {
             "name": "Jordan",
             "code": "JO",
-            "flag": "https://countryflagsapi.com/png/Jordan"
+            "flag": "https://flagcdn.com/w1280/jo.png"
         },
         {
             "name": "Italy",
             "code": "IT",
-            "flag": "https://countryflagsapi.com/png/Italy"
+            "flag": "https://flagcdn.com/w1280/it.png"
         },
         {
             "name": "Poland",
             "code": "PL",
-            "flag": "https://countryflagsapi.com/png/Poland"
+            "flag": "https://flagcdn.com/w1280/pl.png"
         },
         {
             "name": "Singapore",
             "code": "SG",
-            "flag": "https://countryflagsapi.com/png/Singapore"
+            "flag": "https://flagcdn.com/w1280/sg.png"
         },
         {
             "name": "Qatar",
             "code": "QA",
-            "flag": "https://countryflagsapi.com/png/Qatar"
+            "flag": "https://flagcdn.com/w1280/qa.png"
         },
         {
             "name": "Libya",
             "code": "LY",
-            "flag": "https://countryflagsapi.com/png/Libya"
+            "flag": "https://flagcdn.com/w1280/ly.png"
         },
         {
             "name": "Tunisia",
             "code": "TN",
-            "flag": "https://countryflagsapi.com/png/Tunisia"
+            "flag": "https://flagcdn.com/w1280/tn.png"
         },
         {
             "name": "Vietnam",
             "code": "VN",
-            "flag": "https://countryflagsapi.com/png/Vietnam"
+            "flag": "https://flagcdn.com/w1280/vn.png"
         },
         {
             "name": "Cambodia",
             "code": "KH",
-            "flag": "https://countryflagsapi.com/png/Cambodia"
+            "flag": "https://flagcdn.com/w1280/kh.png"
         },
         {
             "name": "Bhutan",
             "code": "BT",
-            "flag": "https://countryflagsapi.com/png/Bhutan"
+            "flag": "https://flagcdn.com/w1280/bt.png"
         },
         {
             "name": "Chad",
             "code": "TD",
-            "flag": "https://countryflagsapi.com/png/Chad"
+            "flag": "https://flagcdn.com/w1280/td.png"
         },
         {
             "name": "Somalia",
             "code": "SO",
-            "flag": "https://countryflagsapi.com/png/Somalia"
+            "flag": "https://flagcdn.com/w1280/so.png"
         },
         {
-            "name": "Bosnia and Herzegovina",
+            "name": "Bosnia",
             "code": "BA",
-            "flag": "https://countryflagsapi.com/png/BA"
+            "flag": "https://flagcdn.com/w1280/ba.png"
         },
         {
             "name": "Indonesia",
             "code": "ID",
-            "flag": "https://countryflagsapi.com/png/Indonesia"
+            "flag": "https://flagcdn.com/w1280/id.png"
         },
         {
             "name": "Malaysia",
             "code": "MY",
-            "flag": "https://countryflagsapi.com/png/MY"
+            "flag": "https://flagcdn.com/w1280/my.png"
         },
         {
             "name": "Brazil",
             "code": "BR",
-            "flag": "https://countryflagsapi.com/png/Brazil"
+            "flag": "https://flagcdn.com/w1280/br.png"
         },
         {
             "name": "Morocco",
             "code": "MA",
-            "flag": "https://countryflagsapi.com/png/Morocco"
+            "flag": "https://flagcdn.com/w1280/ma.png"
         },
         {
             "name": "Saudi Arabia",
             "code": "SA",
-            "flag": "https://countryflagsapi.com/png/SA"
+            "flag": "https://flagcdn.com/w1280/sa.png"
         },
         {
             "name": "Ecuador",
             "code": "EC",
-            "flag": "https://countryflagsapi.com/png/Ecuador"
+            "flag": "https://flagcdn.com/w1280/ec.png"
         },
         {
             "name": "Guatemala",
             "code": "GT",
-            "flag": "https://countryflagsapi.com/png/Guatemala"
+            "flag": "https://flagcdn.com/w1280/gt.png"
         },
         {
             "name": "Tiwan",
             "code": "TW",
-            "flag": "https://countryflagsapi.com/png/TW"
+            "flag": "https://flagcdn.com/w1280/tw.png"
         }
 
     

@@ -67,3 +67,10 @@
     left:-50%;
     transform: skewX(-4deg);
 }
+
+/* for small screens, make the start button smaller */
+@media screen and (max-width: 768px) {
+  .start {
+    font-size: 4rem;
+  }
+}
