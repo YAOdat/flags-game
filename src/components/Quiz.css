@@ -110,7 +110,6 @@ body {
     }
     .quiz__options {
         display: grid;
-        /* two columns two rows four options */
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
         margin: 0;
