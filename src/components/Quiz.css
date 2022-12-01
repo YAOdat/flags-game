@@ -98,22 +98,30 @@ body {
     .flag-container {
         flex-direction: column;
         height: 100%;
+
     }
     .flag {
         width: 100%;
         height: 50%;
+
+    }
+    h2 {
+        margin: 4px;
     }
     .quiz__options {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        display: grid;
+        /* two columns two rows four options */
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        margin: 0;
+
     }
     .quiz__option {
-        font-size: 16px;
-        margin: 5px;
+        font-size: 14px;
+        margin: 2px;
         padding: 0;
         width: 150px;
-        height: 70px;
+        height: 40px;
         border: solid 1px #03e9f4;
     }
 
@@ -126,28 +134,16 @@ body {
     }
 }
 
-/* making the page responsive for short screens */
-@media screen and (max-height: 830px) {
-    .quiz {
-        height: 100vh;
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
     }
-    .flag-container {
-        height: 100%;
+    50% {
+        transform: rotate(180deg);
     }
-    .flag {
-        height: 50%;
-    }
-    .quiz__options {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .quiz__option {
-        height: 50px;
+    100% {
+        transform: rotate(360deg);
     }
 }
 
-/* if the user answers the correct question make the quiz container color green and if the user answers the wrong question make the quiz container color red */
-#green {
-    background-color: #00ff00;
-}
+
