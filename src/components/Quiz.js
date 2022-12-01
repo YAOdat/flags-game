@@ -86,7 +86,6 @@ export default class Quiz extends React.Component {
         }, 1000);
     }
 
-    // to ensure that all components are rendered before the new options are generated use ComponentDidUpdate
     componentDidUpdate(prevProps, prevState) {
         if (prevState.countryIndex !== this.state.countryIndex) {
             this.setState({
